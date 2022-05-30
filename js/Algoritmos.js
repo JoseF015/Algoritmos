@@ -99,18 +99,30 @@ switch (op) {
                                         // Segundo commit cambiar por alert
 
     case 6:
-        alert("Piensa en un número del 1 al 100 \n Multiplicalo por 10 \n Sumale 7\n Multiplicalo por 10\n Sumale 5")
-        res= prompt("Damé el resultado: ")
-        let R=res*2;
-        R=R-150;
-        R=R/200;
-        console.log("Tú nnúmero es: "+R)
+        // alert("Piensa en un número del 1 al 100 \n Multiplicalo por 10 \n Sumale 7\n Multiplicalo por 10\n Sumale 5")
+        // res= prompt("Damé el resultado: ")
+        // let R=res*2;
+        // R=R-150;
+        // R=R/200;
+        // console.log("Tú nnúmero es: "+R)
 
-        let limita;
-        let limitb;
+        alert("Piensa un número del 1 al 100")
+        mid=50;
+        let j=2;
 
-
-        
+        while (j<=128) {
+            n1=confirm("¿Es mayor a: "+mid);
+            if (n1) 
+             {mid=parseInt(mid+50/j)
+            if(j==128){alert("Tú número es: "+(mid+1))}
+            }
+            else 
+                 {
+                    mid=parseInt(mid-50/j)
+                    if(j==128){alert("Tú número es: "+(mid-1))}
+                 }
+            j=j*2;
+        }
 
     break
     
