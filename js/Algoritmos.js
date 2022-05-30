@@ -96,7 +96,7 @@ switch (op) {
         else {alert("El número es impar")}
         break;
         
-                                        // Segundo commit cambiar por alert
+          // Segundo commit cambiar por alert
 
     case 6:
         // alert("Piensa en un número del 1 al 100 \n Multiplicalo por 10 \n Sumale 7\n Multiplicalo por 10\n Sumale 5")
